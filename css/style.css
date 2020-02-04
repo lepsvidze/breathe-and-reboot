@@ -633,6 +633,8 @@ footer {
     -o-transition: .5s;
     transition: .5s;
     width: 30%; }
+  .slider{
+    width: 90%;
   .nav_link {
     color: #ffffff;
     line-height: normal;
