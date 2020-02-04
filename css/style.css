@@ -733,7 +733,10 @@ footer {
     line-height: 1.1em;
     text-align: center; } }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
+  .menu-btn{
+     display: block; 
+   }
   .nav {
     width: 100%; }
   .preloader img{
@@ -752,7 +755,7 @@ footer {
     width: 100%; }
   .text {
     width: 30%; } }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
    .menu-btn{
      display: block; 
    }
