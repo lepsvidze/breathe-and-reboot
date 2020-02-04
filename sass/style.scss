@@ -8,6 +8,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -726,8 +727,8 @@ footer {
   .nav {
     width: 100%;
   }
-  .preloader{
-    width: 20%;
+  .preloader img{
+    width: 45%;
   }
   .adv{
     width: 20%;
@@ -735,12 +736,12 @@ footer {
   .adv img{
     width: 50%;
   }
-  .about-service img{
+  .image{
     width: 300px;
     height: auto;
   }
-  .coaches{
-   flex-wrap: wrap;
+  .team_inner{
+   flex-direction: column;
   }
   .team_item{
     width: 100%;
