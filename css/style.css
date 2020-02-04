@@ -4,9 +4,10 @@ body {
   font-size: 15px;
   line-height: 1.6;
   margin: 0;
-  overflow-x: hidden;
 }
-
+html{
+    overflow-x: hidden;
+}
 h1 {
   color: #215461;
   font-size: 30px;
@@ -636,8 +637,8 @@ footer {
     -o-transition: .5s;
     transition: .5s;
     width: 30%; }
-  .testimonials{
-    width: 80%;}
+  .slider{
+    width: 95%;}
   .nav_link {
     color: #ffffff;
     line-height: normal;
