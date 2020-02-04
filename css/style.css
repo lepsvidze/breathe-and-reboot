@@ -738,11 +738,14 @@ footer {
   .nav {
     width: 100%; }
   .preloader img{
-    width: 45%; }
+    width: 40%; }
   .adv {
     width: 20%; }
-  .image {
-    width: 300px;
+  .about-service_inner{
+  width: 100%;
+  }
+  .image img{
+    width: 200px;
     height: auto; }
   .team_inner {
     flex-direction: column }
@@ -750,3 +753,9 @@ footer {
     width: 100%; }
   .text {
     width: 30%; } }
+@media screen and (max-width: 400px) {
+   .menu-btn{
+     display: block; 
+   }
+}
+
