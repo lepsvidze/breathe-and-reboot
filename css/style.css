@@ -275,7 +275,8 @@ a {
           justify-content: center;
   margin-top: 50px;
   text-align: center; }
-
+.about-us{
+  width: 100%;}
 .about-us_item {
   display: block;
   background-color: #8fb5ff;
@@ -354,7 +355,9 @@ a {
   background-color: #8fb5ff;
   margin: 0 auto;
   padding: 30px;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+}
 
 .join-us_inner h1 {
   color: #ffffff;
@@ -634,7 +637,7 @@ footer {
     transition: .5s;
     width: 30%; }
   .slider{
-    width: 90%;
+    width: 80%;
   .nav_link {
     color: #ffffff;
     line-height: normal;
