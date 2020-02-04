@@ -3,7 +3,10 @@ body {
   font-family: 'Neucha', cursive;
   font-size: 15px;
   line-height: 1.6;
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden;
+
+}
 
 h1 {
   color: #215461;
@@ -734,19 +737,15 @@ footer {
 @media screen and (max-width: 700px) {
   .nav {
     width: 100%; }
-  .preloader {
-    width: 20%; }
+  .preloader img{
+    width: 45%; }
   .adv {
     width: 20%; }
-  .adv img {
-    width: 50%; }
-  .about-service img {
+  .image {
     width: 300px;
     height: auto; }
-  .coaches {
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+  .team_inner {
+    flex-direction: column }
   .team_item {
     width: 100%; }
   .text {
