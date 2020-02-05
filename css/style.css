@@ -755,6 +755,9 @@ footer {
     text-align: center;
     font-size: 15px;
   }
+  .slide{
+    width: 85%;
+  }
   .about-service_inner{
   width: 60%;
   }
