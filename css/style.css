@@ -748,6 +748,8 @@ footer {
     width: 100%; }
   .preloader img{
     width: 40%; }
+  .adv{
+    width: 30%;}
   .adv p{
     text-align: center;
     font-size: 15px;
