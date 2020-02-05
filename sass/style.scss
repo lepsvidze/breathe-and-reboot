@@ -728,10 +728,12 @@ footer {
     width: 100%; }
   .preloader img{
     width: 40%; }
-  .adv {
-    width: 20%; }
+  .adv p{
+    text-align: center;
+    font-size: 15px;
+  }
   .about-service_inner{
-  width: 80%;
+  width: 60%;
   }
   .image img{
     width: 250px;
@@ -741,7 +743,14 @@ footer {
   .team_item {
     width: 100%; }
   .text {
-    width: 30%; } }
+    width: 30%; }
+.inp{
+    width: 100%;
+    }
+  .send{
+    text-align: center;
+    }  
+}
 @media screen and (max-width: 400px) {
    .menu-btn{
      display: block; 
